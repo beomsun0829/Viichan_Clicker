@@ -1,0 +1,46 @@
+html, body{
+  margin:0px;
+  padding:0px;
+  height: 100%;
+  overflow: hidden;
+
+  -webkit-user-select:none;
+  -webkit-user-drag: none;
+  -moz-user-select:none; 
+  -ms-user-select:none;
+  user-select:none;
+}
+
+#root{
+  height: 100%;
+}
+
+.App{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+
+.Title{
+  font-size: 70px;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+
+.Count{
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.ViichanImg{
+  margin-top: -10px;
+}
+
+.ViichanImg img{
+  -webkit-user-drag: none;
+}
